@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2edc4145fae479798f0588ca35ca87, type: 3}
+  m_Name: LevelPacksGroupOpenStars
+  m_EditorClassIdentifier: 
+  levelPacks:
+  - groupName: Test1
+    backgroundName: Background1
+    groupLevel: 1-5
+    countLevel: 5
+    starsToUnlock: 0
+    colorTitle: {r: 0.5754717, g: 0.18729976, b: 0.18729976, a: 1}
+    colorLevel: {r: 0.4152225, g: 0.6886792, b: 0.41255784, a: 0}
+    openLevelColor: {r: 0.18435551, g: 0.13843894, b: 0.5754717, a: 1}
+  - groupName: Test2
+    backgroundName: Background2
+    groupLevel: 6-15
+    countLevel: 10
+    starsToUnlock: 30
+    colorTitle: {r: 0.123398006, g: 0.5566038, b: 0.5566038, a: 1}
+    colorLevel: {r: 0.4152225, g: 0.6886792, b: 0.41255784, a: 0}
+    openLevelColor: {r: 0.41509432, g: 0.36671424, b: 0.08810966, a: 1}
+  - groupName: Test3
+    backgroundName: Background3
+    groupLevel: 16-25
+    countLevel: 10
+    starsToUnlock: 50
+    colorTitle: {r: 0.5283019, g: 0.4416974, b: 0.1769313, a: 1}
+    colorLevel: {r: 0.5818598, g: 0.8679245, b: 0.47080812, a: 0}
+    openLevelColor: {r: 0.33167994, g: 0.1533019, b: 0.6132076, a: 1}

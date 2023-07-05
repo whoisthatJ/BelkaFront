@@ -1,0 +1,547 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+  m_Name: MainAtlas
+  m_EditorClassIdentifier: 
+  hashCode: 818480864
+  material: {fileID: 21544743541870326}
+  materialHashCode: 0
+  m_Version: 1.1.0
+  spriteSheet: {fileID: 2800000, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  m_SpriteCharacterTable:
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 0
+    m_Scale: 1
+    m_Name: LockBorder
+    m_HashCode: 862967751
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 1
+    m_Scale: 1
+    m_Name: SelectedSmall
+    m_HashCode: -1942073002
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 2
+    m_Scale: 1
+    m_Name: LockSmall
+    m_HashCode: -344228332
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 3
+    m_Scale: 1
+    m_Name: DirectSoccer
+    m_HashCode: 359983814
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 4
+    m_Scale: 1
+    m_Name: Coin
+    m_HashCode: 2451115
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 5
+    m_Scale: 1
+    m_Name: StarSmall
+    m_HashCode: -2027450293
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 6
+    m_Scale: 1
+    m_Name: GreenMidButton
+    m_HashCode: 226172909
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 7
+    m_Scale: 1
+    m_Name: LoadingBar
+    m_HashCode: -59709673
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 8
+    m_Scale: 1
+    m_Name: MidButton
+    m_HashCode: 908956278
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 9
+    m_Scale: 1
+    m_Name: Ads
+    m_HashCode: 67798
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 10
+    m_Scale: 1
+    m_Name: BackgroundTilePurple
+    m_HashCode: 1701059796
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 11
+    m_Scale: 1
+    m_Name: SettingsButton
+    m_HashCode: 464869203
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 12
+    m_Scale: 1
+    m_Name: PauseButton
+    m_HashCode: 1927088132
+  - m_ElementType: 2
+    m_Unicode: 0
+    m_GlyphIndex: 13
+    m_Scale: 1
+    m_Name: BackgroundTileTeal
+    m_HashCode: 506506406
+  m_SpriteGlyphTable:
+  - m_Index: 0
+    m_Metrics:
+      m_Width: 85
+      m_Height: 85
+      m_HorizontalBearingX: -42.5
+      m_HorizontalBearingY: 42.5
+      m_HorizontalAdvance: 85
+    m_GlyphRect:
+      m_X: 405
+      m_Y: 426
+      m_Width: 85
+      m_Height: 85
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300030, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 1
+    m_Metrics:
+      m_Width: 63
+      m_Height: 50
+      m_HorizontalBearingX: -31.5
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 63
+    m_GlyphRect:
+      m_X: 405
+      m_Y: 374
+      m_Width: 63
+      m_Height: 50
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300022, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 2
+    m_Metrics:
+      m_Width: 40
+      m_Height: 50
+      m_HorizontalBearingX: -20
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 40
+    m_GlyphRect:
+      m_X: 470
+      m_Y: 374
+      m_Width: 40
+      m_Height: 50
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300028, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 3
+    m_Metrics:
+      m_Width: 150
+      m_Height: 150
+      m_HorizontalBearingX: -75
+      m_HorizontalBearingY: 75
+      m_HorizontalAdvance: 150
+    m_GlyphRect:
+      m_X: 253
+      m_Y: 361
+      m_Width: 150
+      m_Height: 150
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300006, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 4
+    m_Metrics:
+      m_Width: 47
+      m_Height: 50
+      m_HorizontalBearingX: 5
+      m_HorizontalBearingY: 40
+      m_HorizontalAdvance: 47
+    m_GlyphRect:
+      m_X: 463
+      m_Y: 322
+      m_Width: 47
+      m_Height: 50
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300020, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 5
+    m_Metrics:
+      m_Width: 55
+      m_Height: 53
+      m_HorizontalBearingX: -27.5
+      m_HorizontalBearingY: 26.5
+      m_HorizontalAdvance: 55
+    m_GlyphRect:
+      m_X: 311
+      m_Y: 306
+      m_Width: 55
+      m_Height: 53
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300008, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 6
+    m_Metrics:
+      m_Width: 56
+      m_Height: 85
+      m_HorizontalBearingX: -28
+      m_HorizontalBearingY: 42.5
+      m_HorizontalAdvance: 56
+    m_GlyphRect:
+      m_X: 405
+      m_Y: 287
+      m_Width: 56
+      m_Height: 85
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300018, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 7
+    m_Metrics:
+      m_Width: 40
+      m_Height: 40
+      m_HorizontalBearingX: -20
+      m_HorizontalBearingY: 20
+      m_HorizontalAdvance: 40
+    m_GlyphRect:
+      m_X: 463
+      m_Y: 280
+      m_Width: 40
+      m_Height: 40
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300004, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 8
+    m_Metrics:
+      m_Width: 56
+      m_Height: 85
+      m_HorizontalBearingX: -28
+      m_HorizontalBearingY: 42.5
+      m_HorizontalAdvance: 56
+    m_GlyphRect:
+      m_X: 253
+      m_Y: 274
+      m_Width: 56
+      m_Height: 85
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300012, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 9
+    m_Metrics:
+      m_Width: 55
+      m_Height: 37
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 31
+      m_HorizontalAdvance: 55
+    m_GlyphRect:
+      m_X: 311
+      m_Y: 267
+      m_Width: 55
+      m_Height: 37
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300026, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 10
+    m_Metrics:
+      m_Width: 250
+      m_Height: 250
+      m_HorizontalBearingX: -125
+      m_HorizontalBearingY: 125
+      m_HorizontalAdvance: 250
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 261
+      m_Width: 250
+      m_Height: 250
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300000, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 11
+    m_Metrics:
+      m_Width: 50
+      m_Height: 50
+      m_HorizontalBearingX: -25
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 50
+    m_GlyphRect:
+      m_X: 368
+      m_Y: 235
+      m_Width: 50
+      m_Height: 50
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300016, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 12
+    m_Metrics:
+      m_Width: 50
+      m_Height: 50
+      m_HorizontalBearingX: -25
+      m_HorizontalBearingY: 25
+      m_HorizontalAdvance: 50
+    m_GlyphRect:
+      m_X: 253
+      m_Y: 222
+      m_Width: 50
+      m_Height: 50
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300014, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - m_Index: 13
+    m_Metrics:
+      m_Width: 250
+      m_Height: 250
+      m_HorizontalBearingX: -125
+      m_HorizontalBearingY: 125
+      m_HorizontalAdvance: 250
+    m_GlyphRect:
+      m_X: 1
+      m_Y: 9
+      m_Width: 250
+      m_Height: 250
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 21300002, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 405
+    y: 426
+    width: 85
+    height: 85
+    xOffset: -42.5
+    yOffset: 42.5
+    xAdvance: 85
+    scale: 1
+    name: LockBorder
+    hashCode: 862967751
+    unicode: 0
+    pivot: {x: -42.5, y: 42.5}
+    sprite: {fileID: 21300030, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 1
+    x: 405
+    y: 374
+    width: 63
+    height: 50
+    xOffset: -31.5
+    yOffset: 25
+    xAdvance: 63
+    scale: 1
+    name: SelectedSmall
+    hashCode: -1942073002
+    unicode: 0
+    pivot: {x: -31.5, y: 25}
+    sprite: {fileID: 21300022, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 2
+    x: 470
+    y: 374
+    width: 40
+    height: 50
+    xOffset: -20
+    yOffset: 25
+    xAdvance: 40
+    scale: 1
+    name: LockSmall
+    hashCode: -344228332
+    unicode: 0
+    pivot: {x: -20, y: 25}
+    sprite: {fileID: 21300028, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 3
+    x: 253
+    y: 361
+    width: 150
+    height: 150
+    xOffset: -75
+    yOffset: 75
+    xAdvance: 150
+    scale: 1
+    name: DirectSoccer
+    hashCode: 359983814
+    unicode: 0
+    pivot: {x: -75, y: 75}
+    sprite: {fileID: 21300006, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 4
+    x: 463
+    y: 322
+    width: 47
+    height: 50
+    xOffset: 5
+    yOffset: 40
+    xAdvance: 47
+    scale: 1
+    name: Coin
+    hashCode: 2451115
+    unicode: 0
+    pivot: {x: -23.5, y: 25}
+    sprite: {fileID: 21300020, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 5
+    x: 311
+    y: 306
+    width: 55
+    height: 53
+    xOffset: -27.5
+    yOffset: 26.5
+    xAdvance: 55
+    scale: 1
+    name: StarSmall
+    hashCode: -2027450293
+    unicode: 0
+    pivot: {x: -27.5, y: 26.5}
+    sprite: {fileID: 21300008, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 6
+    x: 405
+    y: 287
+    width: 56
+    height: 85
+    xOffset: -28
+    yOffset: 42.5
+    xAdvance: 56
+    scale: 1
+    name: GreenMidButton
+    hashCode: 226172909
+    unicode: 0
+    pivot: {x: -28, y: 42.5}
+    sprite: {fileID: 21300018, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 7
+    x: 463
+    y: 280
+    width: 40
+    height: 40
+    xOffset: -20
+    yOffset: 20
+    xAdvance: 40
+    scale: 1
+    name: LoadingBar
+    hashCode: -59709673
+    unicode: 0
+    pivot: {x: -20, y: 20}
+    sprite: {fileID: 21300004, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 8
+    x: 253
+    y: 274
+    width: 56
+    height: 85
+    xOffset: -28
+    yOffset: 42.5
+    xAdvance: 56
+    scale: 1
+    name: MidButton
+    hashCode: 908956278
+    unicode: 0
+    pivot: {x: -28, y: 42.5}
+    sprite: {fileID: 21300012, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 9
+    x: 311
+    y: 267
+    width: 55
+    height: 37
+    xOffset: 0
+    yOffset: 31
+    xAdvance: 55
+    scale: 1
+    name: Ads
+    hashCode: 67798
+    unicode: 0
+    pivot: {x: -27.5, y: 18.5}
+    sprite: {fileID: 21300026, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 10
+    x: 1
+    y: 261
+    width: 250
+    height: 250
+    xOffset: -125
+    yOffset: 125
+    xAdvance: 250
+    scale: 1
+    name: BackgroundTilePurple
+    hashCode: 1701059796
+    unicode: 0
+    pivot: {x: -125, y: 125}
+    sprite: {fileID: 21300000, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 11
+    x: 368
+    y: 235
+    width: 50
+    height: 50
+    xOffset: -25
+    yOffset: 25
+    xAdvance: 50
+    scale: 1
+    name: SettingsButton
+    hashCode: 464869203
+    unicode: 0
+    pivot: {x: -25, y: 25}
+    sprite: {fileID: 21300016, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 12
+    x: 253
+    y: 222
+    width: 50
+    height: 50
+    xOffset: -25
+    yOffset: 25
+    xAdvance: 50
+    scale: 1
+    name: PauseButton
+    hashCode: 1927088132
+    unicode: 0
+    pivot: {x: -25, y: 25}
+    sprite: {fileID: 21300014, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  - id: 13
+    x: 1
+    y: 9
+    width: 250
+    height: 250
+    xOffset: -125
+    yOffset: 125
+    xAdvance: 250
+    scale: 1
+    name: BackgroundTileTeal
+    hashCode: 506506406
+    unicode: 0
+    pivot: {x: -125, y: 125}
+    sprite: {fileID: 21300002, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+  fallbackSpriteAssets: []
+--- !u!21 &21544743541870326
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f3f44ea5ce3bbca439e8638d21a4aa7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
